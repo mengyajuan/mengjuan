@@ -1,0 +1,306 @@
+@charset "UTF-8";
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr, td, form, input, select, textarea, span, img, a, em, strong, * {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "瀹嬩綋";
+  font-size: 12px;
+  color: #000000; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 14px; }
+
+input, select, textarea {
+  vertical-align: middle; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
+
+a:hover {
+  color: #009999; }
+
+.clear {
+  clear: both;
+  height: 0px;
+  width: 0px;
+  overflow: hidden; }
+
+.wrap {
+  width: 100%;
+  height: auto;
+  background: #fafafa; }
+
+.header {
+  width: 100%;
+  height: 60px;
+  background: #0097cf; }
+  .header .header-con {
+    height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #ffffff; }
+    .header .header-con div {
+      float: left;
+      height: 60px;
+      line-height: 60px; }
+      .header .header-con div span {
+        display: inline-block;
+        line-height: 60px; }
+        .header .header-con div span b {
+          font-weight: normal; }
+      .header .header-con div:first-child {
+        font-size: 24px; }
+      .header .header-con div:nth-child(2) span {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        .header .header-con div:nth-child(2) span:nth-child(3) {
+          background: #0088ba; }
+      .header .header-con div:last-child {
+        font-size: 12px; }
+        .header .header-con div:last-child a {
+          padding-left: 12px;
+          color: #39b7e6; }
+
+.wrap_box {
+  width: 1200px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  margin: 0 auto; }
+  .wrap_box .input_box {
+    padding-left: 32px;
+    margin-top: 60px;
+    font-size: 22px;
+    position: relative; }
+    .wrap_box .input_box span {
+      color: #0097cf;
+      font-weight: bold;
+      margin-right: 10px; }
+    .wrap_box .input_box input {
+      width: 420px;
+      height: 37px;
+      border: 1px solid #ccc;
+      border-radius: 5px; }
+    .wrap_box .input_box i {
+      position: absolute;
+      left: 195px;
+      top: 5px;
+      font-size: 28px;
+      color: #cccccc; }
+    .wrap_box .input_box button {
+      width: 90px;
+      height: 38px;
+      background: #F5AB00;
+      border-radius: 5px;
+      border: none;
+      color: #ffffff;
+      font-size: 16px;
+      margin-left: 10px; }
+
+.system {
+  margin-top: 22px; }
+  .system dl {
+    margin-left: 26px;
+    margin-right: 68px;
+    text-align: center;
+    float: left; }
+    .system dl dt {
+      padding: 0 28px;
+      border: 1px solid #cccccc; }
+      .system dl dt img {
+        padding-top: 8px; }
+    .system dl dd {
+      font-size: 18px;
+      padding-top: 10px; }
+  .system .center {
+    width: 429px;
+    height: 189px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #FBFBFD;
+    float: left; }
+    .system .center h2 {
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-bottom: 22px;
+      margin-top: 5px; }
+    .system .center ul {
+      margin-left: 30px;
+      margin-bottom: 10px; }
+      .system .center ul li {
+        display: inline-block;
+        width: 72px;
+        height: 25px;
+        line-height: 25px;
+        color: #b8b8b9; }
+  .system .right {
+    width: 429px;
+    height: 189px;
+    float: right;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-right: 20px;
+    background: #FBFBFD; }
+    .system .right h2 {
+      width: 404px;
+      height: 30px;
+      line-height: 30px;
+      margin-top: 5px;
+      border-bottom: 1px dashed #ccc;
+      margin-left: 13px;
+      color: #0097CF; }
+    .system .right .ul_con {
+      margin-top: 20px;
+      height: 30px;
+      text-align: center;
+      margin-bottom: 24px; }
+      .system .right .ul_con li {
+        float: left;
+        color: #666;
+        width: 65px;
+        height: 30px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        border: 1px solid #cccccc;
+        background: #F0F0F0;
+        border-radius: 5px;
+        margin-left: 24px;
+        position: relative; }
+        .system .right .ul_con li i {
+          position: absolute;
+          right: -6px;
+          top: -6px;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+          background: #f4c600;
+          color: #ffffff;
+          font-weight: normal;
+          text-align: center;
+          line-height: 16px; }
+
+.base_mes, .device_mes, .username_mes {
+  margin-left: 55px;
+  margin-top: 20px; }
+  .base_mes .base_one, .device_mes .base_one, .username_mes .base_one {
+    height: 34px;
+    border-bottom: 1px dashed #cccccc; }
+    .base_mes .base_one .base_left, .device_mes .base_one .base_left, .username_mes .base_one .base_left {
+      float: left;
+      font-size: 20px;
+      color: #000000;
+      font-weight: bold; }
+    .base_mes .base_one .base_right, .device_mes .base_one .base_right, .username_mes .base_one .base_right {
+      float: right; }
+      .base_mes .base_one .base_right li, .device_mes .base_one .base_right li, .username_mes .base_one .base_right li {
+        display: inline-block;
+        width: 141px;
+        height: 34px;
+        font-weight: bold;
+        background: #f8f8f8;
+        text-align: center;
+        line-height: 34px;
+        border: 2px solid #cccccc; }
+  .base_mes .table, .device_mes .table, .username_mes .table {
+    width: 300px;
+    height: 139px;
+    margin-top: 20px;
+    margin-left: 26px;
+    display: inline-block; }
+    .base_mes .table tr td, .device_mes .table tr td, .username_mes .table tr td {
+      border-top: none;
+      color: #818181; }
+      .base_mes .table tr td:nth-child(1), .device_mes .table tr td:nth-child(1), .username_mes .table tr td:nth-child(1) {
+        text-align: right;
+        padding-right: 40px; }
+      .base_mes .table tr td:nth-child(2), .device_mes .table tr td:nth-child(2), .username_mes .table tr td:nth-child(2) {
+        text-align: left; }
+    .base_mes .table caption, .device_mes .table caption, .username_mes .table caption {
+      border-bottom: 1px dashed #cccccc; }
+
+.username_mes .table {
+  display: inline-block;
+  width: 300px !important;
+  height: 70px;
+  margin-left: 26px; }
+  .username_mes .table tr td {
+    color: #818181; }
+
+.response {
+  margin-left: 20px;
+  margin-top: 20px; }
+  .response .base_one {
+    height: 34px; }
+    .response .base_one .base_left {
+      float: left;
+      font-size: 20px;
+      color: #000000;
+      font-weight: bold; }
+  .response .table_one {
+    margin-left: 56px;
+    margin-right: 56px;
+    width: 1040px;
+    color: #818181; }
+    .response .table_one caption {
+      text-align: center; }
+    .response .table_one tr td {
+      padding-right: 35px;
+      padding-top: 40px; }
+      .response .table_one tr td dl dd {
+        text-align: center;
+        padding-top: 6px; }
+  .response .tables {
+    margin-left: 56px;
+    margin-right: 56px;
+    width: 1040px;
+    border: 1px solid #CCCCCC; }
+    .response .tables caption {
+      text-align: center; }
+    .response .tables tr td {
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #818181; }
+
+.record {
+  margin-left: 20px;
+  margin-top: 20px; }
+  .record .base_one {
+    height: 34px; }
+    .record .base_one .base_left {
+      float: left;
+      font-size: 20px;
+      color: #000000;
+      font-weight: bold; }
+  .record .table {
+    margin-left: 56px;
+    margin-right: 56px;
+    width: 1040px;
+    border: 1px solid #CCCCCC; }
+    .record .table caption {
+      text-align: center; }
+    .record .table tr td {
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #818181;
+      font-size: 14px; }
+
+.bor {
+  border-top: 2px solid #0097cf !important;
+  color: #0097cf; }
+
+/*# sourceMappingURL=style.css.map */

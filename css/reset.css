@@ -1,0 +1,37 @@
+/* CSS Document */
+/*网页的全局样式 解决兼容问题*/
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{ margin:0; padding:0;}
+body{ font-family:"宋体"; font-size:12px; color:#000000;}
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ color:#009999;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+  .wrap{ width:983px; height:852px; background:#9F6; margin:0 auto;}
+     .top{ height:91px; background:#CCC; border:1px solid #00C;}
+	 .top img{ margin:5px 0 0 10px;}
+	 .top .tt{ width:25px; height:68px; float:right; margin:5px 20px 0 0; line-height:28px;}
+	 .nav{ width:870px; height:20px; margin-top:20px;}
+	 .nav ul li{ float:left; line-height:20px; padding-left:10px; padding-left:35px;}
+	 .main{ height:570px; background:#0C9; margin-top:20px;}
+	 .main .left{ width:250px; height:566px; background:#663; float:left;}
+	 .main .right{ width:690px; height:566px; background:#FC3; float:right;}
+	 .left h2{ margin:10px; 0 0 5px;}
+	 .left ul li{ padding-left:20px;}
+	 .left dl dt{ float:left;}
+	 .left dl dd{ float:right; width:150px; height:20px;}
+	 .left .qq{ margin-left:10px; margin-top:90px;}
+	 .left .ww{ margin-top:50px;}
+	 .right{ width:720px; height:558px; background:#C90; float:right;}
+	 .a1{ width:330px; height:246px; background:#C09;}
+	 .a1 dl dt{ float:left;}
+	 .a1 dl dd{ float:right; width:150px; height:20px;} 
+	 .a1 ul { margin-top:60px;}
+	 .a2{ width:330px; height:246px; background:#900; float:right; margin-top:-250px;}
+	 .a3{ width:330px; height:246px; background:#9F3; float:left;}
+	 .a4{ width:330px; height:246px; background:#C09; float:right;}
+	 .foot{ width:830px; height:110px; background:#F69; margin:0 auto;}
+	 .foot p{ padding-left:300px; line-height:25px;}
+	 
