@@ -13,13 +13,16 @@ a:hover{ color:#009999;}
   height: auto;
   background: #fafafa;
 }
+
+.table tr td{
+  padding-right: 20px !important;
+}
 .header{
   width: 100%;
   height: 60px;
   background: #0097cf;
   .header-con{
     height: 60px;
-    width: 1200px;
     margin: 0 auto;
     color: #ffffff;
     div{
@@ -29,22 +32,14 @@ a:hover{ color:#009999;}
       span{
         display: inline-block;
         line-height: 60px;
+        font-size: 16px;
+
         b{
           font-weight: normal;
         }
       }
       &:first-child{
         font-size: 24px;
-      }
-      &:nth-child(2){
-        span{
-          font-size: 16px;
-          padding-left: 15px;
-          padding-right: 15px;
-          &:nth-child(3){
-            background: #0088ba;
-          }
-        }
       }
       &:last-child{
         font-size: 12px;
@@ -53,11 +48,26 @@ a:hover{ color:#009999;}
           color: #39b7e6;
         }
       }
+      &:nth-child(2){
+        span{
+          padding-left: 15px;
+          padding-right: 15px;
+          &:hover{
+            background: #0088ba;
+          }
+        }
+
+      }
+      &:last-child{
+        padding-left: 30px;
+        span{
+          color: #F5AB00;
+        }
+      }
     }
   }
 }
 .wrap_box{
-  width: 1200px;
   background: #ffffff;
   border: 1px solid #ccc;
   margin: 0 auto;
@@ -98,9 +108,10 @@ a:hover{ color:#009999;}
 }
 .system{
   margin-top: 22px;
-  dl{
-    margin-left: 26px;
-    margin-right: 68px;
+  .dls{
+    width: 16%;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: center;
     float: left;
     dt{
@@ -108,6 +119,8 @@ a:hover{ color:#009999;}
       border: 1px solid #cccccc;
       img{
         padding-top: 8px;
+        width: 100%;
+        height: 150px;
       }
     }
     dd{
@@ -116,8 +129,7 @@ a:hover{ color:#009999;}
     }
   }
   .center{
-    width: 429px;
-    height: 189px;
+    width: 36%;
     border: 1px solid #cccccc;
     border-radius: 5px;
     background: #FBFBFD;
@@ -144,15 +156,13 @@ a:hover{ color:#009999;}
     }
   }
   .right{
-    width: 429px;
-    height: 189px;
+    width: 36%;
     float: right;
     border: 1px solid #cccccc;
     border-radius: 5px;
     margin-right:20px;
     background: #FBFBFD;
     h2{
-      width: 404px;
       height: 30px;
       line-height: 30px;
       margin-top: 5px;
@@ -223,11 +233,9 @@ a:hover{ color:#009999;}
     }
   }
   .table{
-    width: 300px;
-    height: 139px;
     margin-top: 20px;
     margin-left: 26px;
-    display: inline-block;
+    display: inline;
     tr td{
       border-top: none;
       color: #818181;
@@ -244,7 +252,7 @@ a:hover{ color:#009999;}
     }
   }
 }
-.username_mes{
+.table_one{
   .table{
     display: inline-block;
     width: 300px !important;
@@ -258,6 +266,7 @@ a:hover{ color:#009999;}
 .response{
   margin-left: 20px;
   margin-top: 20px;
+  margin-right: 20px;
   .base_one {
     height: 34px;
     .base_left{
@@ -268,33 +277,28 @@ a:hover{ color:#009999;}
     }
   }
   .table_one{
-    margin-left: 56px;
-    margin-right: 56px;
-    width: 1040px;
     color:#818181;
     caption{
       text-align: center;
     }
     tr td{
-      padding-right: 35px;
+      padding-right: 38px;
       padding-top: 40px;
       dl dd{
         text-align: center;
         padding-top: 6px;
       }
+      dl dt img{
+        width: 100%
+      }
     }
   }
   .tables{
-    margin-left: 56px;
-    margin-right: 56px;
-    width: 1040px;
     border: 1px solid #CCCCCC;
     caption{
       text-align: center;
     }
     tr td{
-      height: 40px;
-      line-height: 40px;
       text-align: center;
       color:#818181;
     }
@@ -303,6 +307,7 @@ a:hover{ color:#009999;}
 .record{
   margin-left: 20px;
   margin-top: 20px;
+  margin-right: 20px;
   .base_one {
     height: 34px;
     .base_left{
@@ -313,16 +318,12 @@ a:hover{ color:#009999;}
     }
   }
   .table{
-    margin-left: 56px;
-    margin-right: 56px;
-    width: 1040px;
+    padding-right: 56px;
     border: 1px solid #CCCCCC;
     caption{
       text-align: center;
     }
     tr td{
-      height: 40px;
-      line-height: 40px;
       text-align: center;
       color:#818181;
       font-size: 14px;
@@ -330,6 +331,6 @@ a:hover{ color:#009999;}
   }
 }
 .bor{
-  border-top: 2px solid #0097cf !important;
+  border-top: 3px solid #0097cf !important;
   color: #0097cf;
 }
